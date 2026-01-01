@@ -9,4 +9,4 @@ The behavior is the point.
 ---
 
 This work is provisionally patented.  
-Contact: mike [at] greased-lightning [dot] io
+Contact: MichaelAllenKuykendall [at] gmail [dot] com
