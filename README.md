@@ -22,4 +22,4 @@ See Pounce in action with real performance data:
 ---
 
 This work is provisionally patented (provisional filed December 2025; non-provisional due December 2026).
-Contact: info@delta0labs.com
+Contact: michaelallenkuykendall@gmail.com
