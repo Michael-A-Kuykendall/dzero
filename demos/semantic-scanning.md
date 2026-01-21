@@ -9,7 +9,7 @@
 ```
 METHOD              TIME (108K events)
 DOM Parse + Query   287ms
-Pounce Scan         99ms
+Delta Zero Scan     99ms
 ```
 
 **2.9× speedup** for targeted field extraction.

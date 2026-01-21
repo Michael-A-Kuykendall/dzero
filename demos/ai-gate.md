@@ -1,7 +1,7 @@
 # AI Pre-Tokenization Semantic Gate Demo
 
 ## Overview
-This demo proves Pounce prevents expensive LLM tokenization costs by gating payloads **before** they ever reach the tokenizer. The demo shows a single pipeline where Pounce semantic gates filter records, and only approved records incur tokenization costs.
+This demo proves Delta Zero prevents expensive LLM tokenization costs by gating payloads **before** they ever reach the tokenizer. The demo shows a single pipeline where Delta Zero semantic gates filter records, and only approved records incur tokenization costs.
 
 ## Key Results
 
@@ -10,12 +10,12 @@ This demo proves Pounce prevents expensive LLM tokenization costs by gating payl
 **Token Estimation**: 1 token ≈ 4 bytes
 
 ```
-WITHOUT POUNCE:
+WITHOUT DELTA ZERO:
   Records tokenized: 30000
   Tokens sent: 533971
   Estimated cost: $16.01
 
-WITH POUNCE:
+WITH DELTA ZERO:
   Records tokenized: 24513
   Tokens sent: 406575
   Estimated cost: $12.19
@@ -33,7 +33,7 @@ PROJECTED SAVINGS (Same Gate Ratios):
 
 ## Business Impact
 
-This demo proves Pounce enables **deterministic cost reduction** by preventing expensive operations from ever running:
+This demo proves Delta Zero enables **deterministic cost reduction** by preventing expensive operations from ever running:
 
 1. **Pre-tokenization filtering**: 18.3% of records never reach the tokenizer
 2. **Cost avoidance**: $3.82 savings (23.8% reduction) on LLM spend per batch
@@ -45,7 +45,7 @@ For enterprise buyers, this translates to **real dollars saved** by avoiding exp
 ## Technical Validation
 
 **Single Pipeline Architecture**:
-- Pounce gates first (streaming semantic checks)
+- Delta Zero gates first (streaming semantic checks)
 - Only kept records reach tokenization/LLM processing
 - Baseline represents counterfactual: "what if all records were processed"
 
