@@ -15,6 +15,10 @@ See Delta Zero in action with real performance data:
 - **[AI Cost Savings Demo](demos/ai-gate.md)** - 23.8% reduction in LLM tokenization costs ($14M/year at scale)
 - **[Semantic Scanning Demo](demos/semantic-scanning.md)** - 2.9× faster than DOM parsing
 
+## Benchmarks
+
+[View detailed, reproducible benchmarks →](benchmarks.md)
+
 ## Pitch Deck
 
 [View the full investor presentation →](https://delta-zero-labs.github.io/dzero/)
