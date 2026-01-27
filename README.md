@@ -1,6 +1,6 @@
 # ∂runtime / ∂rules ≈ 0
 
-![demo](demo.gif)
+![demo](Delta%20Zero%20Labs%20Demo.gif)
 
 Demonstrating fused semantic execution: a paradigm shift where rule evaluation cost remains invariant to policy complexity, solving the O(N×M) scaling bottleneck in APIs, AI, and observability systems.
 The behavior is the point.
@@ -12,7 +12,7 @@ The behavior is the point.
 See Delta Zero in action with real performance data:
 
 - **[Flat Scaling Demo](demos/flat-scaling.md)** - 100,000× more rules, same cost
-- **[AI Cost Savings Demo](demos/ai-gate.md)** - 23.8% reduction in LLM tokenization costs ($14M/year at scale)
+- **[AI Cost Savings Demo](demos/ai-gate.md)** - 20.0% reduction in LLM tokenization costs ($84M+ annual savings at scale)
 - **[Semantic Scanning Demo](demos/semantic-scanning.md)** - 2.9× faster than DOM parsing
 
 ## Benchmarks
